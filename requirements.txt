@@ -1,0 +1,4 @@
+numpy
+streamlit
+scikit-learn
+pickel
