@@ -20,17 +20,24 @@ CityVisit :- No. of times the student visit the city from campus.(per month)
 
 MonthlyExpense which is our last column is out target column.
 
-This will include :-                                             
-->Recharge                             								
-->Basic Needs(Groceries)					
+This will include :- 
+
+->Recharge     
+
+->Basic Needs(Groceries)
+
 ->Outside Food (Hexa/Canteen/Nescafe)
+
 ->The used feature column and the other daily basis expenses.
 _________________________________________________________________________________________________
 
 ## Algoritms Accuracy
 I trained and tested the data with 2 Algorithms (Linear Regression & Random Forest)
+
 Both gave good accuracy.
+
 Accuracy for Linear Regression = 93.7 %
+
 Accuracy for Random Forest = 98% 
 _________________________________________________________________________________________________
 
@@ -74,9 +81,13 @@ ________________________________________________________________________________
 
 ## Explaination for Wrong Prediction
 If you think that the model is giving wrong prediction of you monthly expense then these can be the following reason.
+
 -> The dataset for training this model was small around 200 data point, its most likely that the model can make wrong prediction.
+
 -> It can be the case that the data you have entered is a outliner.
+
 I hope you are statisfied with my explaination.
+
 I will try to work on improving this model with time.
 
 Thank You for Reading the README 😁
