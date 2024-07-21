@@ -69,5 +69,5 @@ If you think that the model is giving wrong prediction of you monthly expense th
 I hope you are statisfied with my explaination.
 I will try to work on improving this model with time.
 
-Thank You
-_____________________________________ THE END ____________________________________________________
+Thank You for Reading the README 😁
+Have a great day :)
