@@ -2,17 +2,27 @@
 LINK for the Web App of this deployed ML Mode :- https://iiitdmj-student-monthly-expense-predictor-kharchakitna.streamlit.app/
 
 ## About the project
-This is a ML Project named "KharchaKitna" which will predict the Monthlty Expense of a student (specially of our IIITDMJ Campus) The dataset for this model is intutively prepared by myself by taking expenses ideas for fellow batchmates.It consists of 200 data points. It takes account of various factors(mention as columns of CSV File) like:-
-MessTaken :- Opted for Mess or Not.(1 means opted ✅ / 0 means not opted ❌)
+This is a ML Project named "KharchaKitna" which will predict the Monthlty Expense of a student (specially of our IIITDMJ Campus) The dataset 
+for this model is intutively prepared by myself by taking expenses ideas for fellow batchmates.It consists of 200 data points. It takes account
+of various factors(mention as columns of CSV File) like:-
+
+MessTaken :- Opted for Mess or Not.(1 means opted ✅ / 0 means not opted ❌)                     
+
 NOTE :- If you have opted for mess then your monthly mess amount will be not included with the MonthlyExpense, since it is already paid at the start of the Semester.
+
 CanteenVisit :- No. of days you visit canteen/Hexa/Nescafe(all included) per week.
+
 RelationshipStatus :- whether the student is single🗿 or mingle😁.(0 means single / 1 means mingle)
+
 OnlineFood :- No. of times the student order food online from city.(per month)
+
 CityVisit :- No. of times the student visit the city from campus.(per month)
+
 MonthlyExpense which is our last column is out target column.
-This will include :-
-->Recharge
-->Basic Needs(Groceries)
+
+This will include :-                                             
+->Recharge                             								
+->Basic Needs(Groceries)					
 ->Outside Food (Hexa/Canteen/Nescafe)
 ->The used feature column and the other daily basis expenses.
 _________________________________________________________________________________________________
