@@ -36,6 +36,8 @@ def main():
     - Relationship Status
     - Online Food Orders
     - City Visits
+
+    NOTE:- If you have opted for mess then your monthly mess amount will be not included with the MonthlyExpense, since it is already paid at the start of the Semester.
     
     Simply input your details below and click 'Predict' to see your estimated monthly expenses.
     """)
