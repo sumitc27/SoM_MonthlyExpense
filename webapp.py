@@ -16,10 +16,11 @@ def monthlyexp_prediction(input_data):
   predictions = loaded_model.predict(new_data)
   for i, prediction in enumerate(predictions):
 # Print the prediction
-   if(prediction>400):
-    return f"Your predicted Monthly Expense = ₹ {prediction:.0f}"
-   else:
-     return f"Your predicted Monthly Expense = Around ₹400"
+   return f"Your predicted Monthly Expense = ₹ {prediction:.0f}"
+   # if(prediction>400):
+   #  return f"Your predicted Monthly Expense = ₹ {prediction:.0f}"
+   # else:
+   #   return f"Your predicted Monthly Expense = Around ₹400"
 def main():
     # Adding GitHub icon and link
 
@@ -88,3 +89,4 @@ if __name__ == '__main__':
    
   
   
+
